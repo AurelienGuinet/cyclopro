@@ -1,0 +1,10 @@
+
+{% extends 'base.html.twig' %}
+{%block title%}{{parent()}}Demande de réparation{%endblock%}
+
+{%block body %}
+
+<h1 class="text-center mt-4">Bienvenue chez CycloPro !</h1>
+
+{{form{FormReparation} }}
+{%endblock%}
